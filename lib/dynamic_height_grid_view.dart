@@ -43,6 +43,7 @@ class DynamicHeightGridView extends StatelessWidget {
       controller: controller,
       shrinkWrap: shrinkWrap,
       physics: physics,
+      padding: EdgeInsets.zero,
       itemBuilder: (ctx, columnIndex) {
         return _GridRow(
           columnIndex: columnIndex,
